@@ -157,7 +157,6 @@ def passlocker():
             else:
                 print("That Credential you want to delete does not exist in your store yet")
 
-       
         elif short_code == 'ex':
             print("Thanks for using passwords store manager.. See you next time!")
             break
