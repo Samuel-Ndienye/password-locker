@@ -10,7 +10,7 @@ class TestClass(unittest.TestCase):
         """
         Method that runs before each individual test methods run.
         """
-        self.new_user = User('SamuelNdienye','XyZ3thf1')
+        self.new_user = User('SamuelNdienye','hf1')
 
     def test_init(self):
         """
