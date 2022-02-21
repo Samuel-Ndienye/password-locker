@@ -1,14 +1,7 @@
 #!/usr/bin/env python3.6
 from passlock import User, Credentials
 
-def function():
-	print("               ____                         _____  _                               ")
-	print("              |  _ \                       / ____|| |                              ")
-	print("              | |_) )  ____  ___   ___    / ____  | |__    _____  _ _  ____        ")
-	print("              |  __/  / _  |/ __  / __    \___  \ |  __)  /  _  \| '_|/ __ \       ")
-	print("              | |    / (_| |\__ \ \__ \    ___  / | |___ (  (_)  ) | |  ___/       ")
-	print("              |_|    \_____| ___/  ___/   |____/  |_____) \_____/|_|  \____        ")
-function()
+
 
 def create_new_user(username,password):
     '''
@@ -181,7 +174,7 @@ def passlocker():
 
             password = generate_Password()
             print(f" {password} Has been generated succesfull. You can proceed to use it to your account")
-            
+
         elif short_code == 'ex':
             print("Thanks for using passwords store manager.. See you next time!")
             break
