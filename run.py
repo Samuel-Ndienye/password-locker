@@ -76,7 +76,7 @@ def passlocker():
         print('*' * 50)
         username = input("User_name: ")
         while True:
-            print(" TP - To type your own pasword:\n GP - To generate random Password")
+            print(" TP - To type your own pasword:\n")
             password_Choice = input().lower().strip()
             if password_Choice == 'tp':
                 password = input("Enter Password\n")
