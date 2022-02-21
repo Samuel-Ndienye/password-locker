@@ -1,5 +1,4 @@
 # password-locker
-# Git-Search
 #### Author
 * Samuel Ndienye Wang'ang'a
 ## Description
