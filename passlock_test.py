@@ -34,7 +34,7 @@ class TestCredentials(unittest.TestCase):
         """
         Method that runs before each individual credentials test methods run.
         """
-        self.new_credential = Credentials('Gmail','Samuel_Ndienye','yx5Gij43')
+        self.new_credential = Credentials('Gmail','Samuel_Ndienye','j43')
     def test_init(self):
         """
         Test case to check if a new Credentials instance has been initialized correctly
