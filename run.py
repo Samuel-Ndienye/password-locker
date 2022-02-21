@@ -127,7 +127,7 @@ def passlocker():
                 print('*' * 30)
                 print('_'* 30)
                 for account in display_accounts_details():
-                    print(f" Account:{account.account} \n User Name:{username}\n Password:{password}")
+                    print(f" Account:{account} \n User Name:{username}\n Password:{password}")
                     print('_'* 30)
                 print('*' * 30)
             else:
